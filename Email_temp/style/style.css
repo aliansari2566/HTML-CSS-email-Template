@@ -1,0 +1,146 @@
+body{
+    
+
+}
+
+
+
+#top_bar {
+    background-color: black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.top_bar_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.top_bar_main a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.email-body{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 2rem;
+}
+.header {
+    background-color: #faf9fc;
+    padding: 2rem 0rem;
+    border-bottom: 1px solid #dedede;
+}
+header a{
+    color: #b8b9bb;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#main {
+    max-width: 900px;
+    border: 1px solid #dedede;
+    border-radius: 11px;
+}
+#main h4{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+main{
+    max-width: 650px;
+    margin: 50px auto;
+}
+main p{
+    font-size: 20px;
+    color: #555555;
+}
+.thm-left-side i,
+.thm-left-side h4 {
+    color: white;
+}
+
+.mail-details {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #dedede;
+}
+
+.email_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.email_info p {
+    margin: 0;
+}
+
+.user-image {
+    width: 60px;
+    height: 55px;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+.user-email{
+    opacity: 0.6;
+}
+
+.sender-info {
+    display: flex;
+    align-items: center;
+}
+.title{
+    border-top: 1px solid #dedede;
+    padding-top: 12px;
+    margin-top: 1rem;
+}
+.subject{
+    opacity:0.8 ;
+}
+
+
+.content_end p,
+.content_end a{
+    font-size: 16px;
+}
+.content_end a{
+    color: #4b78b9;
+}
+.content_end{
+    border-top: 1px solid #dedede;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #4b78b9;
+    border-color:#4b78b9 ;
+}
+
+footer {
+    background-color: #faf9fc;
+    padding: 2rem 0rem;
+    border-top: 1px solid #dedede;
+}
+footer a,
+footer .footer-copyright,
+footer span{
+    color: #b8b9bb;
+    text-decoration: none;
+    
+    letter-spacing: 1px;
+}
+
+
+
+@media only screen and (max-width: 422px) {
+    .date-time {
+
+      padding-left: 4.7rem;
+    }
+  }
